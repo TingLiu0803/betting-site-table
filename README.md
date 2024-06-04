@@ -4,7 +4,7 @@ Welcome to the Swish Analytics Betting Market Table, an interactive React applic
 
 ## Live Demo
 
-- **`URL`**: doranav-eric-liu.netlify.app
+- **`URL`**: swishbettingnba.netlify.app
 
 ## Project Overview
 
@@ -40,9 +40,9 @@ To set up DoraNav locally, follow these steps:
 You can clone the repository using either HTTPS or SSH:
 
 - **HTTPS**:
-  git clone https://github.com/TingLiu0803/DoraNav.git
+  git clone https://github.com/TingLiu0803/betting-site-table.git
 - **SSH**:
-  git clone git@github.com:TingLiu0803/DoraNav.git
+  git clone git@github.com:TingLiu0803/betting-site-table.git
 
 ### Install Dependencies
 
@@ -61,8 +61,8 @@ This will launch the application in development mode. Open [http://localhost:300
 ### Technologies Used
 
 - **React**:
-Utilized for its efficient rendering and state management capabilities.
+  Utilized for its efficient rendering and state management capabilities.
 - **TypeScript**:
-Enhances development experience with static type checking.
+  Enhances development experience with static type checking.
 - **TailwindCSS**:
-Chosen for its utility-first approach, enabling rapid UI development with consistent design.
+  Chosen for its utility-first approach, enabling rapid UI development with consistent design.
