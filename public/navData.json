@@ -1,0 +1,107 @@
+{
+  "id": 0,
+  "options": [
+    {
+      "id": 1,
+      "name": "Basketball",
+      "path": "/",
+      "description": null,
+      "subOptions": [
+        {
+          "id": 11,
+          "name": "NBA",
+          "path": "/nba",
+          "description": "View all NBA games, stats, and feature stories.",
+          "subOptions": []
+        },
+        {
+          "id": 12,
+          "name": "College Basketball",
+          "path": "/college-basketball",
+          "description": "Explore college basketball games, team rankings, and upcoming stars.",
+          "subOptions": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Football",
+      "path": "/",
+      "description": null,
+      "subOptions": [
+        {
+          "id": 21,
+          "name": "NFL",
+          "path": "/nfl",
+          "description": "Catch up on the latest NFL matches, player stats, and exclusive interviews.",
+          "subOptions": []
+        },
+        {
+          "id": 22,
+          "name": "College Football",
+          "path": "/college-football",
+          "description": "Everything you need to follow college football seasons, teams, and game highlights.",
+          "subOptions": []
+        },
+        {
+          "id": 23,
+          "name": "Fantasy Football",
+          "path": "/fantasy-football",
+          "description": "Manage your fantasy teams and get insights to make the best lineup decisions.",
+          "subOptions": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Baseball",
+      "path": "/",
+      "description": null,
+      "subOptions": [
+        {
+          "id": 31,
+          "name": "MLB",
+          "path": "/mlb",
+          "description": "Latest Major League Baseball news, player stats, and game schedules.",
+          "subOptions": []
+        },
+        {
+          "id": 32,
+          "name": "Minor League",
+          "path": "/minor-league",
+          "description": "Explore the Minor League teams, standings, and top players.",
+          "subOptions": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Soccer",
+      "path": "/soccer",
+      "description": null,
+      "subOptions": [
+        {
+          "id": 41,
+          "name": "Premier League",
+          "path": "/premier-league",
+          "description": "Updates on Premier League matches, team standings, and player news.",
+          "subOptions": []
+        },
+        {
+          "id": 42,
+          "name": "Champions League",
+          "path": "/champions-league",
+          "description": "Catch the latest from UEFA Champions League fixtures, scores, and highlights.",
+          "subOptions": []
+        },
+        {
+          "id": 43,
+          "name": "MLS",
+          "path": "/mls",
+          "description": "Major League Soccer games, news, and player developments.",
+          "subOptions": []
+        }
+      ]
+    }
+  ]
+}

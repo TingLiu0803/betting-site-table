@@ -1,0 +1,50 @@
+/** since keyframes are not supported in tailwindcss, we have to use css for animations */
+
+@keyframes rotate-and-back {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-6deg);
+  }
+  25% {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes rotate-and-move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-and-back {
+  animation: rotate-and-back 1000ms ease-in-out forwards;
+}
+
+.animate-rotate-and-move {
+  animation: rotate-and-move 1500ms ease-in-out infinite;
+}
+
+.submenu-hidden {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.7s ease,
+    opacity 0.7s ease;
+  visibility: hidden;
+}
+
+.submenu-visible {
+  max-height: 1000px;
+  opacity: 1;
+  transition:
+    max-height 0.7s ease,
+    opacity 0.7s ease;
+  visibility: visible;
+}
